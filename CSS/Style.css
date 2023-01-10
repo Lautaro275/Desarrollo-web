@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    position: relative;
+    padding-bottom: 40px;
+    min-height: 80vh;
+    background-color: #A0C3D9;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.fotos {
+    margin-left: 0;   
+    height: 10%;
+    width: 15%;
+    margin-right: 10px;
+    min-height: 6%;
+}
+
+header { 
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    background-color: #6D8BA6;
+    align-items: center;
+    padding: 10px;
+}
+
+header nav { 
+    background-color: #6D8BA6;
+    margin: 10px;
+
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav a {
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{ 
+    color: black;
+}
+
+main { 
+    display: flex;
+}
+
+.info {
+    color: white;
+    text-align: center;
+}
+
+.info h1{
+    font-size: 50px;
+    padding: 3%;
+
+}
+
+.info h2{
+    padding: 3%;
+    margin: 3%;
+    line-height: 50px;
+}
+
+
+main .left-side img{
+    height: 100vh;
+    width: 50vmax;
+    margin-right: 10px;
+    min-height: 500px;
+}
+
+.imagenes {
+    margin-left: 0;   
+    height: 100%;
+    width: 100%;
+    margin-right: 10px;
+    min-height: 60%;
+}
+
+main {
+    margin-left: 0;
+    padding: 0;
+}
+footer {
+    background-color: #4D5751;
+    margin-bottom: 0;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer div {
+    color: white;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+/* .bloque {
+    display: flex;
+    justify-content: center;
+    background-color: #7376BD;
+    padding: 2%;
+    margin: 2% 2%;
+}
+
+.bloque img {
+    padding-right: 20px;
+    max-height: 200px;
+}
+
+.bloque h1 {
+    text-align: center;
+    margin: 0 0 1%;
+}
+
+.bloque h2 { 
+    text-align: justify;
+    margin: 0 2%;
+}
+ */
