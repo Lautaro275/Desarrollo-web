@@ -1,0 +1,121 @@
+/* line 1, scss/base/reset.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* line 1, scss/layout/header.scss */
+a {
+  text-decoration: none;
+  color: white; }
+
+/* line 6, scss/layout/header.scss */
+header {
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  background-color: #6D8BA6;
+  align-items: center;
+  padding: 10px; }
+  /* line 13, scss/layout/header.scss */
+  header nav {
+    display: block;
+    justify-content: center;
+    background-color: #6D8BA6;
+    margin: 10px; }
+    /* line 18, scss/layout/header.scss */
+    header nav a {
+      font-weight: 600;
+      padding-right: 10px; }
+      /* line 21, scss/layout/header.scss */
+      header nav a:hover {
+        color: black; }
+
+/* line 30, scss/layout/header.scss */
+.logo img {
+  height: 50px;
+  margin-right: 10px; }
+
+/* line 1, scss/layout/main.scss */
+body {
+  position: relative;
+  padding-bottom: 40px;
+  min-height: 80vh;
+  background-color: #A0C3D9; }
+
+/* line 8, scss/layout/main.scss */
+.fotos {
+  margin-left: 0;
+  height: 10%;
+  width: 15%;
+  margin-right: 10px;
+  min-height: 6%; }
+
+/* line 16, scss/layout/main.scss */
+main {
+  display: flex;
+  margin-left: 0;
+  padding: 0; }
+
+/* line 22, scss/layout/main.scss */
+.info {
+  color: white;
+  text-align: center; }
+  /* line 25, scss/layout/main.scss */
+  .info h1 {
+    font-size: 50px;
+    padding: 3%; }
+  /* line 29, scss/layout/main.scss */
+  .info h2 {
+    padding: 3%;
+    margin: 3%;
+    line-height: 50px; }
+
+/* line 37, scss/layout/main.scss */
+main .left-side img {
+  height: 100vh;
+  width: 50vmax;
+  margin-right: 10px;
+  min-height: 500px; }
+
+/* line 44, scss/layout/main.scss */
+.imagenes {
+  margin-left: 0;
+  height: 100%;
+  width: 100%;
+  margin-right: 10px;
+  min-height: 60%; }
+
+/* line 52, scss/layout/main.scss */
+.bloque {
+  display: flex;
+  justify-content: center;
+  background-color: #7376BD;
+  padding: 2%;
+  margin: 2% 2%; }
+  /* line 58, scss/layout/main.scss */
+  .bloque h1 {
+    text-align: center;
+    margin: 0 0 1%; }
+  /* line 62, scss/layout/main.scss */
+  .bloque h2 {
+    text-align: justify;
+    margin: 0 2%; }
+  /* line 66, scss/layout/main.scss */
+  .bloque img {
+    padding-right: 20px;
+    max-height: 200px; }
+
+/* line 1, scss/layout/footer.scss */
+footer {
+  background-color: #4D5751;
+  margin-bottom: 0;
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+  width: 100%; }
+  /* line 8, scss/layout/footer.scss */
+  footer div {
+    color: white;
+    padding-left: 10px;
+    padding-top: 10px; }
