@@ -4,7 +4,11 @@
 
 Hasta el momento el proyecto trabaja con:
 -HTML
+
 -CSS
+
 -Bostrap
+
 -SASS
+
 -Nodejs
