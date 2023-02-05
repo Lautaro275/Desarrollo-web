@@ -72,6 +72,13 @@ main .container {
   color: #a7a9be;
   background-color: #0f0e17;
 }
+main .container .row .col form label {
+  background-color: #0f0e17;
+  color: #a7a9be;
+}
+main .container .row .col form input {
+  border: none;
+}
 main .col {
   text-align: center;
 }
@@ -94,6 +101,15 @@ main .container-fluid .col .row {
   text-align: justify;
   background-color: #0f0e17;
   justify-content: space-around;
+}
+main .container-fluid .col .row a :hover {
+  color: white;
+}
+main .container-fluid .col .row a h5 {
+  color: #a7a9be;
+}
+main .container-fluid .col .row .red {
+  max-width: 200px;
 }
 main .container-fluid .col .row .rec {
   border-radius: 10%;
