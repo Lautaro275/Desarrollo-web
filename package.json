@@ -1,17 +1,29 @@
 {
   "name": "sass-turno-noche",
   "version": "1.0.0",
-  "description": "",
+  "description": "Hasta el momento el proyecto trabaja con:\r -HTML\r -CSS\r -Bostrap\r -SASS\r -Nodejs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css":"node-sass -include-patch scss/style.scss css/style.css",
+    "build-css": "node-sass -include-patch scss/style.scss css/style.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css \""
   },
-  "author": "",
+  "author": "Lautaro Sanchez",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^8.0.0",
     "nodemon": "^2.0.20"
-  }
+  },
+  "dependencies": {
+    "gem": "^2.4.3",
+    "sass": "^1.57.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lautaro275/Desarrollo-web.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Lautaro275/Desarrollo-web/issues"
+  },
+  "homepage": "https://github.com/Lautaro275/Desarrollo-web#readme"
 }
